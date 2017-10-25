@@ -14,6 +14,11 @@
 
   <project>
     <PathAndName>.\Lab3_4C123\Lab3.uvprojx</PathAndName>
+    <NodeIsExpanded>1</NodeIsExpanded>
+  </project>
+
+  <project>
+    <PathAndName>.\Lab4_Fitness_4C123\Lab4.uvprojx</PathAndName>
     <NodeIsActive>1</NodeIsActive>
     <NodeIsExpanded>1</NodeIsExpanded>
   </project>

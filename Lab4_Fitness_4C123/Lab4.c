@@ -459,7 +459,7 @@ void Task7(void){
 // Remember that you must have exactly one main() function, so
 // to work on this step, you must rename all other main()
 // functions in this file.
-int main(void){
+int main_main(void){
   OS_Init();
   Profile_Init();  // initialize the 7 hardware profiling pins
   BSP_Button1_Init();
@@ -595,7 +595,8 @@ void TaskH(void){ // dummy
     CountH++;
   }
 }
-int main_step1(void){
+int main(void)//_step1(void){
+{
   OS_Init();
   Profile_Init();  // initialize the 7 hardware profiling pins
   OS_InitSemaphore(&sAB, 0);
